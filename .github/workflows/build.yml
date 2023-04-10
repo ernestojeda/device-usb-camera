@@ -5,5 +5,7 @@ on: [push, pull_request]
 jobs:
   build:
     uses: ernestojeda/edgex-global-pipelines/.github/workflows/build.yml@github-actions2
+    with:
+      name: device-usb-camera
 
-# other jobs go here 
+# other jobs go here
