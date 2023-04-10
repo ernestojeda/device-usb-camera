@@ -1,0 +1,9 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    uses: ernestojeda/edgex-global-pipelines/.github/workflows/build.yml@github-actions
+
+# other jobs go here
