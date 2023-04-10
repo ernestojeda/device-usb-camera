@@ -4,6 +4,6 @@ on: [push, pull_request]
 
 jobs:
   build:
-    uses: ernestojeda/edgex-global-pipelines/.github/workflows/build.yml@github-actions
+    uses: ernestojeda/edgex-global-pipelines/.github/workflows/build.yml@github-actions2
 
-# other jobs go here
+# other jobs go here 
