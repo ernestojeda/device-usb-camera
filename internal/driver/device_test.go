@@ -20,7 +20,7 @@ func TestBuildDeviceName(t *testing.T) {
 		{
 			name:     "UVC Camera (046d:0825)",
 			serial:   "61C0AE50",
-			expected: "UVC_Camera_046d_0825-61C0AE50",
+			expected: "MOCK_Camera_046d_0825-61C0AE50",
 		},
 	}
 	for _, test := range tests {

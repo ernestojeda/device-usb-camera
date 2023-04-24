@@ -43,7 +43,7 @@ tidy:
 	go mod tidy
 
 unittest:
-	go test ./... -coverprofile=coverage.out ./...
+	go test -json ./... -coverprofile=coverage.out ./...
 
 lint:
 	@which golangci-lint >/dev/null || echo "WARNING: go linter not installed. To install, run make install-lint"
